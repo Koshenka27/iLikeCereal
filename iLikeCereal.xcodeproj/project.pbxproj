@@ -8,18 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		B311C29226C883BA003C8EE8 /* iLikeCerealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311C29126C883BA003C8EE8 /* iLikeCerealApp.swift */; };
-		B311C29426C883BA003C8EE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311C29326C883BA003C8EE8 /* ContentView.swift */; };
+		B311C29426C883BA003C8EE8 /* CerealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311C29326C883BA003C8EE8 /* CerealListView.swift */; };
 		B311C29626C883BC003C8EE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B311C29526C883BC003C8EE8 /* Assets.xcassets */; };
 		B311C29926C883BC003C8EE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B311C29826C883BC003C8EE8 /* Preview Assets.xcassets */; };
+		B311C2A126C88410003C8EE8 /* Cereal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311C2A026C88410003C8EE8 /* Cereal.swift */; };
+		B311C2A326C88796003C8EE8 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311C2A226C88796003C8EE8 /* Data.swift */; };
+		B311C2A526C89061003C8EE8 /* CerealRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311C2A426C89061003C8EE8 /* CerealRowView.swift */; };
+		B311C2A726C8A076003C8EE8 /* CerealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311C2A626C8A076003C8EE8 /* CerealDetailView.swift */; };
+		B311C2A926C8A257003C8EE8 /* CerealHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311C2A826C8A257003C8EE8 /* CerealHeaderView.swift */; };
+		B311C2AB26C94809003C8EE8 /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B311C2AA26C94809003C8EE8 /* NutritionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B311C28E26C883BA003C8EE8 /* iLikeCereal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iLikeCereal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B311C29126C883BA003C8EE8 /* iLikeCerealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iLikeCerealApp.swift; sourceTree = "<group>"; };
-		B311C29326C883BA003C8EE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B311C29326C883BA003C8EE8 /* CerealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerealListView.swift; sourceTree = "<group>"; };
 		B311C29526C883BC003C8EE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B311C29826C883BC003C8EE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B311C29A26C883BC003C8EE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B311C2A026C88410003C8EE8 /* Cereal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cereal.swift; sourceTree = "<group>"; };
+		B311C2A226C88796003C8EE8 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		B311C2A426C89061003C8EE8 /* CerealRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerealRowView.swift; sourceTree = "<group>"; };
+		B311C2A626C8A076003C8EE8 /* CerealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerealDetailView.swift; sourceTree = "<group>"; };
+		B311C2A826C8A257003C8EE8 /* CerealHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CerealHeaderView.swift; sourceTree = "<group>"; };
+		B311C2AA26C94809003C8EE8 /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				B311C29126C883BA003C8EE8 /* iLikeCerealApp.swift */,
-				B311C29326C883BA003C8EE8 /* ContentView.swift */,
+				B311C29326C883BA003C8EE8 /* CerealListView.swift */,
+				B311C2A426C89061003C8EE8 /* CerealRowView.swift */,
+				B311C2A626C8A076003C8EE8 /* CerealDetailView.swift */,
+				B311C2AA26C94809003C8EE8 /* NutritionView.swift */,
+				B311C2A826C8A257003C8EE8 /* CerealHeaderView.swift */,
+				B311C2A026C88410003C8EE8 /* Cereal.swift */,
+				B311C2A226C88796003C8EE8 /* Data.swift */,
 				B311C29526C883BC003C8EE8 /* Assets.xcassets */,
 				B311C29A26C883BC003C8EE8 /* Info.plist */,
 				B311C29726C883BC003C8EE8 /* Preview Content */,
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B311C29426C883BA003C8EE8 /* ContentView.swift in Sources */,
+				B311C2A126C88410003C8EE8 /* Cereal.swift in Sources */,
+				B311C29426C883BA003C8EE8 /* CerealListView.swift in Sources */,
 				B311C29226C883BA003C8EE8 /* iLikeCerealApp.swift in Sources */,
+				B311C2A926C8A257003C8EE8 /* CerealHeaderView.swift in Sources */,
+				B311C2A726C8A076003C8EE8 /* CerealDetailView.swift in Sources */,
+				B311C2AB26C94809003C8EE8 /* NutritionView.swift in Sources */,
+				B311C2A326C88796003C8EE8 /* Data.swift in Sources */,
+				B311C2A526C89061003C8EE8 /* CerealRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

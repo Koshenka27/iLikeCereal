@@ -11,7 +11,7 @@ import SwiftUI
 struct iLikeCerealApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CerealListView()
         }
     }
 }
